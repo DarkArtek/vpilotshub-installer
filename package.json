@@ -38,7 +38,7 @@
     "extraResources": [
       "./extraResources/**"
     ],
-    "appId": "com.vpilotsuhb.installer",
+    "appId": "com.vpilotshub.installer",
     "nsis": {
       "include": "scripts/installer.nsh",
       "artifactName": "vPilotsHubs_Installer_Setup.${ext}"
