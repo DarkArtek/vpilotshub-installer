@@ -151,5 +151,9 @@
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
+  },
+  "configUrls": {
+    "production": "https://cdn.ahd-creative.agency/installer/config/production.json",
+    "confidentialBaseUrl": "https://cdn.ahd-creative.agency/installer/config/confidential"
   }
 }
