@@ -57,7 +57,7 @@
     "@flybywiresim/react-components": "^0.3.2",
     "@reduxjs/toolkit": "^1.7.1",
     "@sentry/cli": "^2.5.0",
-    "@sentry/electron": "^3.0.7",
+    "@sentry/electron": "^4.0.0",
     "@sentry/tracing": "^7.8.0",
     "@types/js-yaml": "^4.0.5",
     "@types/winreg": "^1.2.31",
