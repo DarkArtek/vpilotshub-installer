@@ -127,7 +127,7 @@
     "electron": "^29.1.5",
     "electron-builder": "^24.13.3",
     "electron-devtools-installer": "^3.2.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-tailwindcss": "^3.15.1",
