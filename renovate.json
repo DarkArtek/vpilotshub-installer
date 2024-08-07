@@ -1,15 +1,28 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", ":semanticCommits"],
-  "labels": ["dependencies"],
+  "extends": [
+    "config:best-practices",
+    ":semanticCommits"
+  ],
+  "labels": [
+    "dependencies"
+  ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["eslint"],
-      "labels": ["linting"]
+      "labels": [
+        "linting"
+      ],
+      "matchPackageNames": [
+        "/eslint/"
+      ]
     },
     {
-      "matchDepTypes": ["optionalDependencies"],
-      "addLabels": ["optional"]
+      "matchDepTypes": [
+        "optionalDependencies"
+      ],
+      "addLabels": [
+        "optional"
+      ]
     }
   ]
 }
